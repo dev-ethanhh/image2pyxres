@@ -1,4 +1,5 @@
 ### Quick explanation
+<hr>
 The program scans the input image and tries to match each pixel to the closest color in the Pyxel color palette, which is quite limited.
 It then generates one or more .pyxres files, multiple files may be needed due to Pyxel's limitations.
 Finally, the program displays all the generated .pyxres files aligned side by side to reconstruct and preview the full converted image. For very large images, the result may appear zoomed out.
